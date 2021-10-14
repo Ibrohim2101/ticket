@@ -1,0 +1,78 @@
+.event{
+   padding-left: 10px;
+}
+.event_info{
+   display: flex;
+   background: #2F80DC;
+   margin-right: 15px;
+   margin-bottom: 0;
+}
+
+.event_img{
+   max-height: 300px;
+}
+.event_desc{
+   margin-left: 20px;
+}
+
+.event_desc-title{
+   font-size: 18px;
+   font-weight: 700;
+}
+
+.event_desc-num, .event_desc-text, .event_desc-price, .event_desc-not, .event_btn{
+   font-size: .875rem;
+   line-height: 1.5;
+}
+
+.event_desc-text,.event_desc-messengers{
+   text-decoration: none;
+   color:  white !important;
+}
+
+.place{
+   background: #2F80DC;
+   
+}
+
+.place_desc{
+   margin-bottom: 0;
+}
+
+.place_img{
+   max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.place_desc-text{
+   font-size: .875rem;
+   line-height: 1.5;
+   text-decoration: none;
+}
+
+.event_desc-links{
+   font-size: .875rem;
+   line-height: 1.5;
+   text-decoration: none;
+}
+.place_title{
+   font-weight: 700;
+   margin-top: 2px;
+}
+.place_desc-title{
+   font-size: .875rem;
+   line-height: 1.5;
+   font-weight: 700;
+}
+
+.place_karta{
+   height: 100px;
+}
+.event_about{
+  background: #2F80DC;
+}
+.event_about-title{
+   text-align: center;
+   font-weight: 700;
+}

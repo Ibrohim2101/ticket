@@ -1,0 +1,29 @@
+.map{
+   margin-top: 5px;
+}
+.img_map{
+   width: 100%;
+   max-height: 500px;
+}
+
+.concert{
+   margin-top: 10px;
+}
+.concert_item{
+   display: flex;
+   justify-content: space-between;
+}
+
+.concert_place{
+   background: red;
+   padding: 5px 10px;
+   border-radius: 2px;
+}
+
+.concert_num{
+   padding-top: 5px;
+}
+
+.qwer{
+   display: flex;
+}
