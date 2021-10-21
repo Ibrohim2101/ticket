@@ -76,9 +76,7 @@
 
 
           <!-- Button trigger modal -->
-          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            Kirish
-          </button>
+          <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Kirish</a>
 
           <!-- Modal -->
 
@@ -108,19 +106,85 @@
     </div>
   </div>
 
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
+  <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <h5 class="modal-title" id="exampleModalToggleLabel">Kirish</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          ...
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Eslab qolish</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Kirish</button>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+          <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Ro'yxatdan o'tish</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalToggleLabel2">Ro'yxatdan o'tish</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body ">
+          <div class="enterance d-flex ">
+            <div class="mb-3 px-2">
+              <label for="exampleInputEmail1" class="form-label">Ism</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+  
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+  
+          </div>
+
+          <div class="enterance d-flex ">
+            <div class="mb-3 px-2">
+              <label for="exampleInputEmail1" class="form-label">Sharif</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+  
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Parol</label>
+              <input type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+  
+          </div>
+
+          <div class="enterance d-flex ">
+            <div class="mb-3 px-2">
+              <label for="exampleInputEmail1" class="form-label">Mobil telefon</label>
+              <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+  
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Parolni tasdiqlash</label>
+              <input type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            
+            </div>
+            <button type="submit" class="btn btn-primary">Ro'yxatdan o'tish</button>
+          
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Orqaga qaytish</button>
         </div>
       </div>
     </div>
